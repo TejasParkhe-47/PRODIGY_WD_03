@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: radial-gradient(circle at 38% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 34% 62%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 3% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 28% 87%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 15% 30%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 64% 45%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 3% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 74% 78%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 92% 23%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 100% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 43% 31%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 4%,transparent 4%, transparent 96%),linear-gradient(90deg, rgb(164, 0, 244),rgb(57, 10, 184));
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #ff12c0;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn {
+    display: inline-block;
+    padding: .9rem .9rem;
+    background: rgb(59, 255, 131);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    font-size: 1rem;
+    color: black;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+  }
+  #reset-btn:hover{
+    box-shadow: none;
+}
+  
+  #new-btn {
+    display: inline-block;
+    padding: .9rem .9rem;
+    background: rgb(255, 123, 8);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    font-size: 1rem;
+    color: black;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+  }
+  #new-btn:hover{
+    box-shadow: none;
+  }
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
